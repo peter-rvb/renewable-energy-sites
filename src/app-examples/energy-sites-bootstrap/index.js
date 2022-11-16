@@ -124,8 +124,6 @@ const EnergySites = () => {
             })
         }
 
-        console.log('Test');
-
         setEnergySites(fetchedEnergySites);
         setTableData(fetchedEnergySites);
         // setTableData(fetchedEnergySites.slice(currentPage, currentPage+pageLimit));
