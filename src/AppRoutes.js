@@ -10,7 +10,6 @@ import ErrorNotFound from './common/components/ErrorNotFound';
 import Home from './common/components/Home';
 
 import EnergySites from './app-examples/energy-sites';
-import EnergySitesBootstrap from './app-examples/energy-sites-bootstrap';
 
 const AppRoutes = () => {
   return (
@@ -18,7 +17,6 @@ const AppRoutes = () => {
       <Route exact path="/" element={<Home/>} />
       <Route path="/authorize" element={<Authorize/>} />
       <Route path="/energy-sites" element={isAuthenticated() ? <EnergySites/> : <ErrorNotAuthenticated/>} />
-      <Route path="/energy-sites-bootstrap" element={isAuthenticated() ? <EnergySitesBootstrap/> : <ErrorNotAuthenticated/>} />
       <Route element={ErrorNotFound} />
     </Routes>
   );
