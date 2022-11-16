@@ -1,0 +1,53 @@
+{
+  "name": "extend-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@react-google-maps/api": "^2.17.0",
+    "@workday/canvas-accent-icons-web": "^3.0.4",
+    "@workday/canvas-applet-icons-web": "^2.0.5",
+    "@workday/canvas-kit-labs-react": "^7.3.16",
+    "@workday/canvas-kit-labs-react-pagination": "^4.8.1",
+    "@workday/canvas-kit-preview-react": "^7.3.16",
+    "@workday/canvas-kit-react": "^7.3.16",
+    "@workday/canvas-system-icons-web": "^3.0.4",
+    "bootstrap": "^5.2.2",
+    "crypto-js": "^4.1.1",
+    "js-cookie": "^3.0.1",
+    "jwt-decode": "^3.1.2",
+    "query-string": "^7.1.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
