@@ -13,6 +13,8 @@ import SiteLocator from './SiteLocator';
 import SiteManager from './SiteManager';
 import SiteCreator from './SiteCreator';
 
+// Test push changet to rigger amplify rebuild @Nov 30 2022 17:06
+
 const EnergySites = () => {
 
     const toastsAnchorRef = useRef();
