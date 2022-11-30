@@ -1,19 +1,14 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import styled from '@emotion/styled';
-import { colors, space, type } from "@workday/canvas-kit-react/tokens";
+import { space, type } from "@workday/canvas-kit-react/tokens";
 import { LoadingDots } from "@workday/canvas-kit-react/loading-animation";
 import { Popper } from "@workday/canvas-kit-react/popup";
 import { Toast } from "@workday/canvas-kit-react/toast";
-import { exclamationCircleIcon } from '@workday/canvas-system-icons-web';
 
-import { getEnergySites } from './EnergySitesAppData';
-// import {MySidePanel} from '../../common/components/SidePanel';
 import MySidePanel from '../../common/components/SidePanel';
 import SiteLocator from './SiteLocator';
 import SiteManager from './SiteManager';
 import SiteCreator from './SiteCreator';
-
-// Test push changet to rigger amplify rebuild @Nov 30 2022 17:06
 
 const EnergySites = () => {
 
