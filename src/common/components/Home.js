@@ -7,7 +7,7 @@ import { Card } from "@workday/canvas-kit-react/card";
 import { colors, space, type } from "@workday/canvas-kit-react/tokens";
 import { Layout } from "@workday/canvas-kit-react/layout";
 import { AppletIcon } from "@workday/canvas-kit-react/icon";
-import { fallbackIcon, workerSpendIcon, onboardingIcon } from '@workday/canvas-applet-icons-web';
+import { fallbackIcon, onboardingIcon } from '@workday/canvas-applet-icons-web';
 
 import PageHeader from './PageHeader';
 
@@ -28,7 +28,7 @@ const Home = () => {
           <CardLink to='/energy-sites-bootstrap'>
             <HomeCardComingSoon depth={2}>
               <Card.Body>
-                <AppletIcon icon={onboardingIcon} />
+                <AppletIcon icon={fallbackIcon} />
                 <CardHeader>Renewable Energy Site Locator</CardHeader>
                 <CardDescription>Discover where in the world we are tapping into renewable energy. [React-Bootstrap]</CardDescription>
               </Card.Body>
