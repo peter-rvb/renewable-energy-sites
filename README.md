@@ -8,6 +8,8 @@ Multiple [App Examples](src/app-examples) can be contained in this project to de
 
 Please note this project is for demonstration and educational purposes, and is not officially supported by Workday as a production-ready application.
 
+[Reference GitHub repo](https://github.com/Workday/extend-js-example).
+
 ![SiteLocator](https://user-images.githubusercontent.com/96547808/202520097-e972e47d-3b62-49f6-a4b1-fc26564f73a0.png)
 
 ## Deploying locally
@@ -16,6 +18,7 @@ Please note this project is for demonstration and educational purposes, and is n
 
 - [Node.js](https://nodejs.org/en)
 - Workday Cloud Platform Developer Account & Developer Tenant ([Workday Extend](https://developer.workday.com) subscription required)
+- To use the Google Maps component, please follow the [instructions here](https://developers.google.com/maps/documentation/javascript/get-api-key#:~:text=Go%20to%20the%20Google%20Maps%20Platform%20%3E%20Credentials%20page.&text=On%20the%20Credentials%20page%2C%20click,Click%20Close.) to generate a API key. Make note of this as you will need to add this to your .env file. 
 
 ### Setup
 
