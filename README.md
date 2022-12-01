@@ -2,7 +2,7 @@
 
 An app to visualise renewable energy sites information stored in Workday Extend. This app demonstrates building a custom Javascript UI with the [React](https://create-react-app.dev) framework that brings [Workday Extend](https://developer.workday.com) capabilities to non-Workday systems and applications. The app uses [Workday Canvas Kit](https://workday.github.io/canvas-kit) UI components to give the app the look and feel of the Workday UI. 
 
-Multiple [App Examples](app-examples) can be contained in this project to demonstrate the art of the possible. An example for [Renewable Energy Sites](energy-sites) is used which includes use of the [@react-google-maps/api](https://www.npmjs.com/package/@react-google-maps/api) package to visualise address information provided by Workday Extend model objects in a Google Map.
+Multiple [App Examples](src/app-examples) can be contained in this project to demonstrate the art of the possible. An example for [Renewable Energy Sites](src/app-examples/energy-sites) is used which includes use of the [@react-google-maps/api](https://www.npmjs.com/package/@react-google-maps/api) package to visualise address information provided by Workday Extend model objects in a Google Map.
 
 [Create React App](https://create-react-app.dev/) is used for managing the project.
 
@@ -41,7 +41,7 @@ Please note this project is for demonstration and educational purposes, and is n
    - **Name**: JavaScript App Example - AWS Amplify
    - **Redirect URI**: http://localhost:3000/authorize
    - **Authorized CORS Domains**: \[AWS Amplify domain\]
-4. Amend the [Build Settings](https://docs.aws.amazon.com/amplify/latest/userguide/build-settings.html) of the deployment as follows with the following .yml file:
+4. Amend the [Build Settings](https://docs.aws.amazon.com/amplify/latest/userguide/build-settings.html) of the deployment as follows with the following amplify.yml file:
 
 ```
 version: 1
