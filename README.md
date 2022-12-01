@@ -72,3 +72,7 @@ frontend:
 5. Proceed to deploy your application. 
 
 NOTE: you will run into an error in the authentication flow using the above setup. Once logged in, replace everything before ```authorize/``` with the AWS Amplify domain to resume using the app whilst the authentication session is active. **This is a workaround and a solution will be coming soon!** 
+
+## Creating the Energy Sites App in Workday Extend
+
+### \[Coming soon!\]
