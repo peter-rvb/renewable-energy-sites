@@ -26,13 +26,13 @@ const Home = () => {
             </HomeCard>
           </CardLink>
           <CardLink to='/energy-sites-bootstrap'>
-            <HomeCard depth={2}>
+            <HomeCardComingSoon depth={2}>
               <Card.Body>
                 <AppletIcon icon={onboardingIcon} />
                 <CardHeader>Renewable Energy Site Locator</CardHeader>
                 <CardDescription>Discover where in the world we are tapping into renewable energy. [React-Bootstrap]</CardDescription>
               </Card.Body>
-            </HomeCard>
+            </HomeCardComingSoon>
           </CardLink>
       </CardLayout>
     </React.Fragment>

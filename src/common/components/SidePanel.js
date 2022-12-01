@@ -3,25 +3,19 @@ import { useState } from 'react';
 import styled from '@emotion/styled';
 import throttle from 'lodash/throttle';
 
-import {CanvasSystemIcon} from '@workday/design-assets-types';
-import {colors, space, type, CanvasSpaceValues} from '@workday/canvas-kit-react/tokens';
+import {colors, space } from '@workday/canvas-kit-react/tokens';
 import { onboardingIcon } from '@workday/canvas-applet-icons-web';
 
-
-import {SecondaryButton, TertiaryButton} from '@workday/canvas-kit-react/button';
 import SidePanel from '@workday/canvas-kit-react/side-panel';
 import { SystemIcon } from "@workday/canvas-kit-react/icon";
 import { AppletIcon } from "@workday/canvas-kit-react/icon";
 import {
-    plusIcon,
     locationIcon,
     clipboardPlusIcon,
     dashboardIcon,
-    mapIcon,
     transformationImportIcon,
     xIcon
   } from "@workday/canvas-system-icons-web"
-import { inherits } from 'util';
 
 const MySidePanel = ({setSidePanelOpen, setInnerApp}) => {
 
