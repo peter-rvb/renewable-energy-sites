@@ -21,11 +21,11 @@ const Home = () => {
               <Card.Body>
                 <AppletIcon icon={onboardingIcon} />
                 <CardHeader>Renewable Energy Site Locator</CardHeader>
-                <CardDescription>Discover where in the world we are tapping into renewable energy. [Workday Canvas Kit]</CardDescription>
+                <CardDescription>Discover where in the world we are tapping into renewable energy.</CardDescription>
               </Card.Body>
             </HomeCard>
           </CardLink>
-          <CardLink to='/energy-sites-bootstrap'>
+          {/* <CardLink to='/energy-sites-bootstrap'>
             <HomeCardComingSoon depth={2}>
               <Card.Body>
                 <AppletIcon icon={fallbackIcon} />
@@ -33,7 +33,7 @@ const Home = () => {
                 <CardDescription>Discover where in the world we are tapping into renewable energy. [React-Bootstrap]</CardDescription>
               </Card.Body>
             </HomeCardComingSoon>
-          </CardLink>
+          </CardLink> */}
       </CardLayout>
     </React.Fragment>
   );
