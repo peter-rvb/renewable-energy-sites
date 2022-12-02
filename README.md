@@ -42,7 +42,7 @@ Please note this project is for demonstration and educational purposes, and is n
 2. Configure environment variables as instructed [here](https://docs.aws.amazon.com/amplify/latest/userguide/environment-variables.html). 
 3. Create a [Workday Cloud Platform API Client](https://developer.workday.com/console/clients/create) with the following values:
    - **Name**: JavaScript App Example - AWS Amplify
-   - **Redirect URI**: http://localhost:3000/authorize
+   - **Redirect URI**: \[AWS Amplify domain\]/authorize
    - **Authorized CORS Domains**: \[AWS Amplify domain\]
 4. Amend the [Build Settings](https://docs.aws.amazon.com/amplify/latest/userguide/build-settings.html) of the deployment as follows with the following amplify.yml file:
 
@@ -70,8 +70,6 @@ frontend:
       - node_modules/**/*
 ```
 5. Proceed to deploy your application. 
-
-NOTE: you will run into an error in the authentication flow using the above setup. Once logged in, replace everything before ```authorize/``` with the AWS Amplify domain to resume using the app whilst the authentication session is active. **This is a workaround and a solution will be coming soon!** 
 
 ## Creating the Energy Sites App in Workday Extend
 
