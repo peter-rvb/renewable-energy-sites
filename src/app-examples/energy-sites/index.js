@@ -17,7 +17,7 @@ const EnergySites = () => {
     const [isPageSubmitDisabled, setIsPageSubmitDisabled] = useState(false);
     const [toasts, setToasts] = useState([]);
 
-    const [sidePanelOpen, setSidePanelOpen] = useState(false);
+    const [sidePanelOpen, setSidePanelOpen] = useState(true);
     const [innerApp, setInnerApp] = useState(1);
     const innerApps = [
       {
