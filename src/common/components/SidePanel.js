@@ -19,7 +19,7 @@ import {
 
 const MySidePanel = ({setSidePanelOpen, setInnerApp}) => {
 
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
     const [appSelected, setAppSelected] = useState(1);
 
     const apps = [
