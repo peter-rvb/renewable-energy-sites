@@ -15,7 +15,10 @@ import Select from "@workday/canvas-kit-preview-react/select";
 import {ActionBar} from '@workday/canvas-kit-react/action-bar';
 import {PrimaryButton} from '@workday/canvas-kit-react/button';
 
-import { postEnergySite } from './EnergySitesAppData';
+import { 
+    postEnergySite,  
+    launchCreateEnergySiteOrchestration
+} from './EnergySitesAppData';
 
 const ENERGY_SITES_APP_ID = process.env.REACT_APP_EXTEND_APP_REFERENCE_ID_ENERGY_SITES;
 const TENANT_ALIAS = process.env.REACT_APP_WCP_DEFAULT_TENANT_ALIAS;
@@ -88,6 +91,12 @@ const SiteCreator = ({sidePanelOpen}) => {
             setToasts([{ key: Date.now(), icon: exclamationCircleIcon, color: colors.cinnamon500, text: `Problem Creating Site: ${error.message}` }]);
           })
           .finally(() => setIsPageLoading(false));
+    }
+
+    const submitCreateSiteOrch = async() => {
+        var testData = {};
+        var response = await launchCreateEnergySiteOrchestration(testData);
+        console.log(response)
     }
 
     return <>
@@ -177,6 +186,9 @@ const SiteCreator = ({sidePanelOpen}) => {
                             </ActionBar.Item>
                             <ActionBar.Item onClick={() => resetForm()}> 
                                 Reset Form
+                            </ActionBar.Item>
+                            <ActionBar.Item onClick={() => submitCreateSiteOrch()}> 
+                                Create Site Orch
                             </ActionBar.Item>
                         </ActionBar.List>
                     </ActionBar>
