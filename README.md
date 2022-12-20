@@ -73,4 +73,4 @@ frontend:
 
 ## Creating the Energy Sites App in Workday Extend
 
-### \[Coming soon!\]
+Please see the [Renewable Energy Sites - Extend](https://github.com/peter-rvb/renewable-energy-sites-extend) repository. 
