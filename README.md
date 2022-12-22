@@ -1,4 +1,4 @@
-# Renewable Energy Sites
+# Renewable Energy Sites - React
 
 An app to visualise renewable energy sites information stored in Workday Extend. This app demonstrates building a custom Javascript UI with the [React](https://create-react-app.dev) framework that brings [Workday Extend](https://developer.workday.com) capabilities to non-Workday systems and applications. The app uses [Workday Canvas Kit](https://workday.github.io/canvas-kit) UI components to give the app the look and feel of the Workday UI. 
 
@@ -36,7 +36,7 @@ Please note this project is for demonstration and educational purposes, and is n
 
 ## Deploying to AWS Amplify
 
-### Setup [WIP]
+### Setup
 
 1. Follow the AWS Amplify instructions for [Getting started with existing code](https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html). 
 2. Configure environment variables as instructed [here](https://docs.aws.amazon.com/amplify/latest/userguide/environment-variables.html). 
